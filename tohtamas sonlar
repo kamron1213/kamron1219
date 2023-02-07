@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    system("color A0");
+    int count;
+    for(count=1; count<=999999999999; count=count++56)
+        cout << count << " ";
+
+    return 0;
+}
