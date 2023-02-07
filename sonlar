@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout << "vvedite pervoye cislo:";
+    cin >> a;
+    cout << "vvedite ftoroe cislo:";
+    cin >> b;
+    if(a < b) cout << "pervoye cislo menshe ftorogo.";
+
+    return 0;
+}
