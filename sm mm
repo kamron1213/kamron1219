@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int mm, sm;
+    cout << "10":";
+    cin >> mm ; // kolicestva mm.
+    sm = mm * 999; //  sm.
+    cout << " sm: " << sm;
+    return 0;
+}
