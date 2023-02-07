@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+void func1();
+void func2();
+int count; // eta glonbalnaya promyera
+int main ()
+{
+    int i; // eta lokalnaye premyera
+    for(i=0; i<10; i++){
+        count = i * 2;
+        func1();
+    }
+    return 0;
+}
+void func1()
+{
+    cout << "count: " << count; // obrashenya k globalnoy peremennoy
+    cout << '\n'; // vvod simvola novoy versi stroki
+    func2();
+}
+void func2()
+{
+    int count ; // eta lokalnaya premyera
+    for (count=0; count<3; count++) cout <<'.';
+}
